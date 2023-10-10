@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "juzfedlom"
+version = "0.1.0"
+description = ""
+authors = ["autobitacora <autobitacora@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.11,<3.13"
+jupyter = "^1.0.0"
+numpy = "^1.26.0"
+pandas = "^2.1.1"
+
+[tool.poetry.group.dev.dependencies]
+seaborn = "^0.13.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
