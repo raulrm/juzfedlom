@@ -13,6 +13,7 @@ pandas = "<=2.0.0"
 pandas-ods-reader = "0.1.4"
 odfpy = "^1.4.1"
 jupyter-nbextensions-configurator = "^0.6.3"
+bandicoot = "^0.6.0"
 
 [tool.poetry.group.dev.dependencies]
 seaborn = "0.13.0"

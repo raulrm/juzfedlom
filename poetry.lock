@@ -179,6 +179,19 @@ files = [
 ]
 
 [[package]]
+name = "bandicoot"
+version = "0.6.0"
+description = "A toolbox to analyze mobile phone metadata."
+optional = false
+python-versions = "*"
+files = [
+    {file = "bandicoot-0.6.0.tar.gz", hash = "sha256:99e5eb50db6d7ddc7d0904cfd89f499ee560caca9d1cb6a2f8e835920f113d6e"},
+]
+
+[package.extras]
+tests = ["networkx", "numpy", "scipy"]
+
+[[package]]
 name = "beautifulsoup4"
 version = "4.12.2"
 description = "Screen-scraping library"
@@ -2852,4 +2865,4 @@ files = [
 [metadata]
 lock-version = "2.0"
 python-versions = ">=3.11,<3.13"
-content-hash = "4b58afae0373eea74d59508852254726a8b75c3fe5ee2033c2e9a5d019034b0a"
+content-hash = "8a86b15a346eb656c064789822f3a491b62b2d6b6c2a94b6ebc366074eb23d34"
